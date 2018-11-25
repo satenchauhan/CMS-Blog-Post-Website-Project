@@ -3,7 +3,7 @@ Its ready to use.
 Its designed and developed in core PHP by my Saten Chauhan. 
 all the users and password are inserted as a example.
 
-just to login first time, just to check first time
+just to login first time to check username and password given below
 
 Olny Admin is authorized to add-users, edit users , delete and update author,
 
