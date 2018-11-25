@@ -1,0 +1,205 @@
+
+    
+body{
+
+	font-family: 'cambria', sans-serif;
+	background-color: #EEEDED;
+	
+  }
+
+.min-color{
+	 background: #013243; 
+}
+.text-color{
+	 color: white;
+}
+.jumbotron{
+	margin-top: -30px;
+	height: 200px;
+	overflow: hidden;
+}
+.jumbotron #details{
+		position: absolute;
+		color: #013243; 
+}
+.jumbotron img{
+		width:100%;
+}
+.sidebar{
+	margin-top: -25px;
+}
+.popular{
+	background: white;
+	padding: 15px;
+}
+.popular img{
+	width: 100%;
+}
+.popular a:hover {
+	color:  #24A7CF;
+	text-decoration: none;	
+}
+.post{
+	background: white;
+	border: 1px solid #E3E3E3;
+	padding: 10PX;
+}
+.post .post-date{
+	border-right: 1px solid #E3E3E3;
+
+}
+.post .post-date .day{
+	 font-size: 30px;
+	 font-weight: bolder;
+}
+.post .post-title{
+	border-right: 1px solid #E3E3E3;
+
+}
+.post .post-title a{
+	color:  #24A7CF;
+	text-decoration: none;	
+}
+
+.card-body h4{
+	color:  #24A7CF;
+	font-weight: bolder;
+}
+.card-body p{
+	color:  darkgray;	
+}
+
+.post .post-date .day,.month,.year{
+	color: #24A7CF;
+	text-align: center;
+}
+.post .profile-picture {
+	padding:  15px;
+
+}
+.contact-form #message{
+	resize: none;
+}
+.related-post{
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+}
+.related-post a:hover{
+	text-decoration: none;
+	color: #24A7CF;
+}
+.contact-form{
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+}
+.map{
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+}
+.related-post img{
+	width: 100%;
+}
+.author{
+	background: white;
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+}
+
+.author h5{
+   margin-top: -9px;
+}
+.author p{
+   color: black;
+   margin-top: -8px;
+   text-align: justify;
+}
+.comment p{
+   color: black;
+   margin-top: -8px;
+   text-align: justify;
+}
+.comment {
+   background: white;
+	padding: 10px;
+	border: 1px solid #E3E3E3;
+}
+.related-post, .author,.comment h3{
+	color: #24A7CF;
+}
+ .author h5{
+	color: #24A7CF;
+	text-decoration: underline;
+}
+.comment h5{
+	color: #24A7CF;
+	text-decoration: underline;
+}
+.comment img{
+     border-radius: 50px;
+}
+.comment-box{
+	border: 1px solid #E3E3E3;
+	padding: 10px;
+}
+.comment-box textarea{
+	resize: none;
+}
+/*====================Footer==============================*/
+#container{
+	min-height: 100%;
+	position: relative;
+}
+
+.body-section{
+	padding-bottom: 70px;
+}
+
+footer{
+	background: #013243;
+	height: 50;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	
+}
+footer a{
+	color: #1E8BC3;
+	font-weight: bolder;
+	font-size: 18px;
+}
+footer a:hover{
+	color: #1E8BC3;
+	text-decoration: underline;
+}
+/*================================Media Query for responsive web page=============================*/
+
+@media(min-width:768px)and(max-width: 1200px){
+ 
+	
+}
+@media(min-width:575px)and(max-width:767px){
+	 
+}
+@media(min-width:480px)and(max-width:574px){
+	         
+
+
+}
+@media(min-width:342px)and(max-width: 479px){
+	
+		 
+			
+}
+@media(min-width:224px)and(max-width: 341px){
+	footer .container p{
+        font-size: 5px;
+	}
+	
+		 
+}

@@ -1,0 +1,15 @@
+all the users and password are inserted as a example.
+
+just to login first time, just to check first time
+
+role: Admin
+username: raman
+password:12345678
+
+role: Admin
+username: naman
+password:12345678
+
+role: author
+username: naman
+password:88888888
