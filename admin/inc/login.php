@@ -28,7 +28,7 @@ $error =""; $umsg1=""; $umsg2="";  $pmsg1=""; $pmsg2="";
           $db_fullname = $db_fname." ".$db_lname;
           $db_username = $row['username'];
           $db_role = $row['role'];
-          echo $db_author_image = $row['image'];
+          $db_pass = $row['password'];
           $dehashed_pass = password_verify($password, $db_pass);
           if($username == $db_username && $dehashed_pass == $db_pass){
           header("Location:profile.php");
